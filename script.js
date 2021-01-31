@@ -26,7 +26,7 @@ function calcular(){
 
 }
 
-
+//Calula a quantidade de carne necessária usando o parâmetro de quantidade de horas que o evento irá durar.
 function carnePP(duracao){
 
     if (duracao >= 6){
@@ -36,7 +36,7 @@ function carnePP(duracao){
           }
 
 }
-
+//Calula a quantidade de cerveja necessária usando o parâmetro de quantidade de horas que o evento irá durar.
 function cervejaPP(duracao){
 
     if (duracao >= 6){
@@ -46,6 +46,8 @@ function cervejaPP(duracao){
           }
 
 }
+
+//Calula a quantidade de bebidas não alcólias necessária usando o parâmetro de quantidade de horas que o evento irá durar.
 
 function bebidaPP(duracao){
 
